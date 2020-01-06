@@ -7,15 +7,15 @@
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
 
-name: OpenWrt-CI
+name: OpenWrt-zxf
 
 on:
   schedule:
     - cron: 0 20 * * 
     
-  # push:
-  #   branches: 
-  #     - master
+  push:
+    branches: 
+      - master
 
 jobs:
   build:
