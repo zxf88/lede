@@ -12,7 +12,6 @@ name: OpenWrt-zxf
 on:
   schedule:
     - cron: 0 20 * * 
-    o1
   push:
     branches: 
       - master
